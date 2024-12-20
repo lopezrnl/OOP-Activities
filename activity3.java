@@ -1,4 +1,4 @@
-public class activity2{
+public class activity3{
     public static void main(String[] args) {
     Student student = new Student("Raniel Carl", "Batangas", "BSIT",2);
     System.out.println("Student Name; " + student.getName());
