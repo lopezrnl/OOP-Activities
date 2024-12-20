@@ -20,6 +20,8 @@ class Student extends Person{
     public int getYear(){
         return Year;
     }
+
+    @Override
     public String toString(){
     return "Hello I am " + Name + " and " + "I lived in " + Address + ". I am " + Year + " year of "+ Program + ".";
     }
